@@ -132,23 +132,6 @@ MAX_CACHE_SIZE=15
 ### Using Swagger UI
 Visit http://127.0.0.1:8000/docs to interact with the API directly from your browser.
 
----
-
-## Project Structure
-
-```
-cactro-BackendTest/
-├── .env.example
-├── main.py             # FastAPI application entry point
-├── app/                # Application module
-│   ├── models/         # MongoDB models
-│   ├── schemas/        # Pydantic schemas
-│   ├── services/       # Business logic
-│   ├── config.py       # Configuration settings
-│   └── database.py     # Database connection setup
-├── requirements.txt    # Python dependencies
-└── tests/              # Test cases
-```
 
 ---
 
