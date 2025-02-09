@@ -24,5 +24,6 @@ This project implements a production-grade caching API using FastAPI, MongoDB, a
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
-   cd project
+   git clone git@github.com:rajbhoyar729/cactro-BackendTest.git
+   cd cactro-BackendTest
+
