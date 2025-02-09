@@ -70,8 +70,7 @@ Before running the project, ensure you have the following installed:
 
 2. **Access the API**:
    - **Local Server**: http://127.0.0.1:8000
-   - **Interactive Docs (Swagger UI)**: http://127.0.0.1:8000/docs
-   - **Alternative Docs (ReDoc)**: http://127.0.0.1:8000/redoc
+
 
 ---
 
@@ -126,11 +125,7 @@ Modify the `MAX_CACHE_SIZE` value in the `.env` file:
 MAX_CACHE_SIZE=15
 ```
 
----
 
-
-### Using Swagger UI
-Visit http://127.0.0.1:8000/docs to interact with the API directly from your browser.
 
 
 ---
