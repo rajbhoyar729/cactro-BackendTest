@@ -128,38 +128,6 @@ MAX_CACHE_SIZE=15
 
 ---
 
-## Deployment
-
-### 1. **Local Deployment**
-- Run the application using `uvicorn` as shown above.
-
-### 2. **Docker Deployment**
-- Build and run the Docker container:
-  ```bash
-  docker build -t cache-api .
-  docker run -p 8000:8000 --env-file .env cache-api
-  ```
-
-### 3. **Cloud Deployment**
-Deploy to platforms like **Vercel**, **Heroku**, or **Render**:
-- Ensure the `MONGODB_URI` is set in the platform's environment variables.
-- Push the code to the platform's repository.
-
----
-
-## Testing the API
-
-### Using `curl`
-```bash
-# Store a key-value pair
-curl -X POST "http://localhost:8000/cache" -H "Content-Type: application/json" -d '{"key": "test", "value": "example"}'
-
-# Retrieve a value
-curl -X GET "http://localhost:8000/cache/test"
-
-# Delete a key
-curl -X DELETE "http://localhost:8000/cache/test"
-```
 
 ### Using Swagger UI
 Visit http://127.0.0.1:8000/docs to interact with the API directly from your browser.
